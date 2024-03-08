@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="359.0" prefWidth="504.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:id="ControleErro" >
+   <children>
+      <Label layoutX="190.0" text="Pãodaria!" textFill="#9e6a2f">
+         <font>
+            <Font name="Freestyle Script" size="51.0" />
+         </font>
+      </Label>
+      <Label layoutX="110.0" layoutY="129.0" text="ERRO pão queimado!" textFill="#53310d">
+         <font>
+            <Font name="Freestyle Script" size="54.0" />
+         </font>
+      </Label>
+      <Label layoutX="132.0" layoutY="210.0" text="seu email e senha devem obedecer o padrão." />
+      <Button layoutX="478.0" layoutY="2.0" mnemonicParsing="false" text="X" fx:id="xButton" onAction="handleClickX" />
+   </children>
+</Pane>
